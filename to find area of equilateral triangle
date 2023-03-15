@@ -1,0 +1,11 @@
+// to find area of equilateral traingle
+# include<stdio.h>
+int main(){
+    float side,area;
+    printf("enter the side of traingle : ");
+    scanf("%f",& side);
+    area=(sqrt(3)/4)*(side*side);
+    printf("the area of equilateral triangle is: %.2f",area);
+
+}
+
